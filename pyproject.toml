@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Generate realistic usernames using a Markov chain"
 authors = ["karrni <24398546+karrni@users.noreply.github.com>"]
 readme = "README.md"
-include = ["transitions.json.bz2"]
+include = ["usergen/transitions.json.bz2"]
 
 [tool.poetry.scripts]
 usergen = "usergen.main:main"
