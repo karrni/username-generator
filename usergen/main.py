@@ -5,7 +5,7 @@ from pathlib import Path
 
 from usergen.markov import MarkovUsernameGenerator
 
-LOCATION = Path(__name__).parent.resolve()
+LOCATION = Path(__file__).parent.resolve()
 TRANSITIONS_FILE = LOCATION / "transitions.json.bz2"
 
 
